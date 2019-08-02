@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+source $HOME/.restic.env
+
+restic -r /run/media/tanq/SDCARD/restic/repo backup --verbose --files-from /home/tanq/restic-backup-files 
+restic -r /run/media/tanq/SDCARD/restic/repo forget --keep-last=3 --keep-daily 1 --keep-weekly 1 --keep-monthly 1 --prune

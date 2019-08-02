@@ -1,0 +1,11 @@
+[Unit]
+Description=Run restic backup remotely every hour
+
+[Timer]
+OnBootSec=5m
+OnCalendar=00/1:00
+Unit=restic-backup-remote.service
+
+[Install]
+WantedBy=timers.target
+

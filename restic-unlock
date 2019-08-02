@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+source $HOME/.restic.env
+
+restic -r /run/media/tanq/SDCARD/restic/repo unlock

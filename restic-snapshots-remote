@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+source $HOME/.restic.env
+
+restic -r b2:mockingbird-backup:/restic/tanq/repo snapshots

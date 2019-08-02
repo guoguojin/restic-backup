@@ -1,0 +1,9 @@
+[Unit]
+Description=Run restic backup locally
+
+[Service]
+ExecStart=/home/tanq/bin/restic-backup
+
+[Install]
+WantedBy=default.target
+

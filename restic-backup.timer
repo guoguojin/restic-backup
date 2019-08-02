@@ -1,0 +1,11 @@
+[Unit]
+Description=Run restic backup locally every 5 minutes
+
+[Timer]
+OnBootSec=5m
+OnCalendar=*:0/5
+Unit=restic-backup.service
+
+[Install]
+WantedBy=timers.target
+
