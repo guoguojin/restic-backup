@@ -7,8 +7,8 @@ To use, copy or link these files to:
 then enable them as user services with systemd:
 
 ```bash
-systemd --user enable restic-backup.service
-systemd --user enable restic-backup.timer
-systemd --user enable restic-backup-remote.service
-systemd --user enable restic-backup-remote.timer
+systemctl --user enable restic-backup.service
+systemctl --user enable restic-backup.timer
+systemctl --user enable restic-backup-remote.service
+systemctl --user enable restic-backup-remote.timer
 ```
