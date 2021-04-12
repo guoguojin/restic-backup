@@ -16,3 +16,6 @@
 /home/tanq/.local/share/Steam
 /home/tanq/vms
 /home/tanq/.restic.env
+/home/tanq/code/**/datastore
+/home/tanq/code/bl
+
