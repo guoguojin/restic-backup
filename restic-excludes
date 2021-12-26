@@ -18,4 +18,14 @@
 /home/tanq/.restic.env
 /home/tanq/code/**/datastore
 /home/tanq/code/bl
+/home/tanq/.private
+/home/tanq/.smbcredentials
+/home/tanq/.fonts
+/home/tanq/.fzf
+/home/tanq/.gnupg
+/home/tanq/.netrc
+/home/tanq/.password-store
+/home/tanq/.ssh
+/home/tanq/.tanqcredentials
+/home/tanq/**/*.log
 
